@@ -16,12 +16,7 @@ NeedItUtils.prototype = {
 		var testdate = new GlideDateTime(strDate);
 		
 		// If the testdate is before rightnow, return true, else return false
-		if (testdate.before(rightnow)) {
-			return true;
-		}
-		else {
-			return false;
-		}
+		return testdate.before(rightnow);
 	},
 	isDateToday: function(strDate){
 		// Create GlideDateTime objects for the current date and the passed in date
@@ -36,13 +31,13 @@ NeedItUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-17 13:17:57</sys_created_on>
         <sys_id>fa057486db933300146b5c7a489619a3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>NeedItUtils</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_fa057486db933300146b5c7a489619a3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-17 13:35:44</sys_updated_on>
+        <sys_updated_on>2019-08-17 18:08:55</sys_updated_on>
     </sys_script_include>
 </record_update>
